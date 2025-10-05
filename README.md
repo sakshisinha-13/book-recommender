@@ -126,7 +126,4 @@ Dataset size:
 
 ```
 
----
 
-Would you like me to also add a **short “How it works” section** explaining the logic flow (dataset → preprocessing → similarity → Flask API), written in simple steps for recruiters or reviewers?
-```
