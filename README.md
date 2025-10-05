@@ -1,6 +1,6 @@
 # Book Recommender System
 
-This project is a full-stack Book Recommender System built using Python (Flask) for the backend and React.js for the frontend.
+This project is a full-stack Book Recommender System built using Python (Flask) for the backend and React.js for the frontend.  
 It provides book recommendations using collaborative filtering and displays the most popular books based on user ratings.
 
 ---
@@ -16,14 +16,14 @@ It provides book recommendations using collaborative filtering and displays the 
 
 ## Tech Stack
 
-- Python
-- Flask
-- Pandas
-- NumPy
-- scikit-learn
-- Pickle
-- React
-- Tailwind CSS
+- Python  
+- Flask  
+- Pandas  
+- NumPy  
+- scikit-learn  
+- Pickle  
+- React  
+- Tailwind CSS  
 
 ---
 
@@ -45,6 +45,11 @@ BookRecommenderSystem/
 │   │   ├── books.csv
 │   │   ├── ratings.csv
 │   │   └── users.csv
+│
+└── frontend/
+├── src/
+├── public/
+└── package.json
 
 ````
 
@@ -52,29 +57,55 @@ BookRecommenderSystem/
 
 ## Installation and Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/BookRecommenderSystem.git
-   cd BookRecommenderSystem/backend
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/BookRecommenderSystem.git
 ````
 
-2. Install dependencies:
+---
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 2. Backend Setup
 
-3. Run the Flask application:
+```bash
+cd BookRecommenderSystem/backend
+pip install -r requirements.txt
+python app.py
+```
 
-   ```bash
-   python app.py
-   ```
+The backend will start on:
 
-4. The backend will start on:
+```
+http://127.0.0.1:5000/
+```
 
-   ```
-   http://127.0.0.1:5000/
-   ```
+---
+
+### 3. Frontend Setup
+
+Open a new terminal window and navigate to the frontend folder:
+
+```bash
+cd ../frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the React application:
+
+```bash
+npm start
+```
+
+The frontend will start on:
+
+```
+http://localhost:3000/
+```
 
 ---
 
@@ -125,5 +156,3 @@ Dataset size:
 **Sakshi Sinha**
 
 ```
-
-
